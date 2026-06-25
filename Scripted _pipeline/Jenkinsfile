@@ -5,7 +5,7 @@ node{
 	stage('Test') {
 		echo 'Testing..'
 	}
-	sgt('Deploy') {
+	stage('Deploy') {
 		echo 'Deploying....'
 	}
 }
