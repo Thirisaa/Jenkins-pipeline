@@ -1,5 +1,5 @@
-# Webhook trigger test
-# Adding changes
+/* Webhook trigger test
+ Adding changes */
 
 pipeline{
 	agent any
