@@ -1,6 +1,7 @@
 /* Webhook trigger test
  Adding changes 
- Trigger build */
+ Trigger build 
+  Testing logs */
 
 pipeline{
 	agent any
