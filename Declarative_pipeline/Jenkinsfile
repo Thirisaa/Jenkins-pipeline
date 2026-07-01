@@ -1,4 +1,4 @@
-# Webhook-trigger test
+# Webhook trigger test
 pipeline{
 	agent any
 	stages{
