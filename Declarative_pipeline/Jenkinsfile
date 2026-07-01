@@ -1,5 +1,6 @@
 # Webhook trigger test
 # Adding changes
+
 pipeline{
 	agent any
 	stages{
@@ -16,6 +17,11 @@ pipeline{
 		stage('Deploy'){
 			steps{
 				echo 'Deploying...'
+			}
+		}
+		stage('Success'){
+			steps{
+				echo 'Job sucess...'
 			}
 		}
 	}
